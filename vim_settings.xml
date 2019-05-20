@@ -1,0 +1,55 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="/Dummy.txt" timestamp="1555504746789">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/media/djd/Codivisa/Università/Materie/Primo anno/Programmazione/Software/JAVA/Metal_Slug/src/metal_slug/Metal_Slug.java" timestamp="1555505447007">
+        <mark key="[" line="10" column="36" />
+        <mark key="]" line="10" column="9" />
+        <mark key="." line="10" column="9" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/Prova/src/Main.java" timestamp="1555499495733">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="6" column="49" />
+        <mark key="^" line="6" column="49" />
+        <mark key="." line="6" column="49" />
+      </file>
+      <file name="/fragment.java" timestamp="1555499240010">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IFN5c3RlbS5vdXQucHJpbnRsbigicG9yY2EgbWlzZXJpYSIpOw==</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">IFN5c3RlbS5vdXQucHJpbnRsbigicG9yY2EgbWlzZXJpYSIpOw==</text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
