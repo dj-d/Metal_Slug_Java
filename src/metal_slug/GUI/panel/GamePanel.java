@@ -70,7 +70,7 @@ public class GamePanel extends JPanel
     private boolean isMovementCrouching;                        //ACCOVACCIATO
 
     //VARIABILI PER IL CAMBIO DEI FRAME DELLE IMMAGINI
-    private int numImageMovement;                               //MOVIMENTO PERSONAGGIO   
+    private int numImageMovement;                               //MOVIMENTO PERSONAGGIO
     private int numImageSequence;                               //SEQUENZA IMMAGINI GRANATA
     private int numImageContdown;
 
@@ -101,9 +101,7 @@ public class GamePanel extends JPanel
     public GamePanel()
       {
         this.setSize(GamePanel.DIMENSION);
-
         this.setLayout(null);
-
         this.mappa = new Map(new Point(0, 0));
 
         //GIOCATORE
@@ -245,13 +243,13 @@ public class GamePanel extends JPanel
         @Override
         public void keyPressed(KeyEvent e)
           {
-            //ESC - 
+            //ESC -
             if (e.getKeyCode() == KeyEvent.VK_ESCAPE)
               {
 
               }
 
-            //ENTER - 
+            //ENTER -
             if (!isGameStart && (e.getKeyCode() == KeyEvent.VK_ENTER))
               {
                 isGameStart = true;             //PARTENZA GIOCO

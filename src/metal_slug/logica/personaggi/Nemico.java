@@ -2,27 +2,23 @@ package metal_slug.logica.personaggi;
 
 import java.awt.Point;
 
-public class Nemico extends Personage
-  {
-    protected static final boolean VIVO = true;
-    protected static final boolean MORTO = false;
-    
-    protected boolean isActive;
+public class Nemico extends Personage {
+	protected static final boolean VIVO = true;
+	protected static final boolean MORTO = false;
 
-    public Nemico(int pVita, Point pPosition)
-      {
-        super(pVita, pPosition);
+	protected boolean isActive;
 
-        this.setIsActive(Nemico.VIVO);
-      }
+	public Nemico(int pVita, Point pPosition) {
+		super(pVita, pPosition);
 
-    public boolean isIsActive()
-      {
-        return isActive;
-      }
+		this.setIsActive(Nemico.VIVO);
+	}
 
-    public void setIsActive(boolean pValue)
-      {
-        this.isActive = pValue;
-      }
-  }
+	public boolean isIsActive() {
+		return isActive;
+	}
+
+	public void setIsActive(boolean pValue) {
+		this.isActive = pValue;
+	}
+}

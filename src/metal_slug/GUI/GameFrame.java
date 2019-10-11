@@ -25,7 +25,7 @@ public class GameFrame extends JFrame
     //PUNTATORI AI PANNELLI
     private static WelcomePanel welcomePanel;
     public static HowToPlayPanel howToPlayPanel;
-    public static GamePanel gamePanel;
+//    public static GamePanel gamePanel;
 
     public GameFrame()
       {
@@ -47,16 +47,16 @@ public class GameFrame extends JFrame
         GameFrame.howToPlayPanel = new HowToPlayPanel();        //HOWTOPLAYPANEL
         this.getContentPane().add(howToPlayPanel);              //ATTACHIAMO HOWTOPLAYPANEL AL FRAME
 
-        GameFrame.gamePanel = new GamePanel();                  //GAMEPANEL
-        this.getContentPane().add(gamePanel);                   //ATTACHIAMO GAMEPANEL AL FRAME
+//        GameFrame.gamePanel = new GamePanel();                  //GAMEPANEL
+//        this.getContentPane().add(gamePanel);                   //ATTACHIAMO GAMEPANEL AL FRAME
 
         GameFrame.welcomePanel.setFocusable(true);
 
         GameFrame.howToPlayPanel.setFocusable(true);
 
-        GameFrame.gamePanel.setFocusable(true);
+//        GameFrame.gamePanel.setFocusable(true);
 
-        GameFrame.showPanel(GameFrame.WELCOME_PANEL);       //PANNELLO DA VISUALIZZARE -> DA IMPOSTARE WELCOME PANEL COME PRINCIPALE
+        GameFrame.showPanel(GameFrame.HOW_TO_PLAY_PANEL);       //PANNELLO DA VISUALIZZARE -> DA IMPOSTARE WELCOME PANEL COME PRINCIPALE
       }
 
     /**
@@ -72,7 +72,7 @@ public class GameFrame extends JFrame
 
                 GameFrame.welcomePanel.setVisible(true);
                 GameFrame.howToPlayPanel.setVisible(false);
-                GameFrame.gamePanel.setVisible(false);
+//                GameFrame.gamePanel.setVisible(false);
 
                 GameFrame.welcomePanel.requestFocusInWindow();
 
@@ -82,7 +82,7 @@ public class GameFrame extends JFrame
 
                 GameFrame.welcomePanel.setVisible(false);
                 GameFrame.howToPlayPanel.setVisible(true);
-                GameFrame.gamePanel.setVisible(false);
+//                GameFrame.gamePanel.setVisible(false);
 
                 GameFrame.howToPlayPanel.requestFocusInWindow();
 
@@ -92,9 +92,9 @@ public class GameFrame extends JFrame
 
                 GameFrame.welcomePanel.setVisible(false);
                 GameFrame.howToPlayPanel.setVisible(false);
-                GameFrame.gamePanel.setVisible(true);
+//                GameFrame.gamePanel.setVisible(true);
 
-                GameFrame.gamePanel.requestFocusInWindow();
+//                GameFrame.gamePanel.requestFocusInWindow();
                 
             break;
           }

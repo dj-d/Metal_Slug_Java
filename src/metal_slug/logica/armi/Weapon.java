@@ -2,40 +2,35 @@ package metal_slug.logica.armi;
 
 import java.awt.Point;
 
-public abstract class Weapon
-  {
-    protected int potenza;
-    
-    protected Point position;
+public abstract class Weapon {
+	protected int potenza;
 
-    public Weapon(int pPotenza, Point pPosition)
-      {
-        this.potenza = pPotenza;
-        this.position = pPosition;
-      }
+	protected Point position;
 
-    /**
-     * POTENZA COLPO
-     *
-     * @return La potenza del colpo
-     */
-    public int getPotenza()
-      {
-        return potenza;
-      }
+	public Weapon(int pPotenza, Point pPosition) {
+		this.potenza = pPotenza;
+		this.position = pPosition;
+	}
 
-    /**
-     * POSIZIONE COLPO
-     *
-     * @return La posizione del colpo
-     */
-    public Point getPosition()
-      {
-        return position;
-      }
+	/**
+	 * POTENZA COLPO
+	 *
+	 * @return La potenza del colpo
+	 */
+	public int getPotenza() {
+		return potenza;
+	}
 
-    public void move(int direciton)
-      {
-        this.position.x += direciton;
-      }
-  }
+	/**
+	 * POSIZIONE COLPO
+	 *
+	 * @return La posizione del colpo
+	 */
+	public Point getPosition() {
+		return position;
+	}
+
+	public void move(int direciton) {
+		this.position.x += direciton;
+	}
+}
